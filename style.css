@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #fff;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+}
+
+
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 200px;
+    height: 400px;
+    width: 900px;
+    background: #070740;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+
+#count {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    font-size: 5rem;
+    color: #fff;
+    padding: 0px 50px 0px 50px;
+}
+
+button {
+    width: 190px;
+    margin-left: 80px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.btn1 {
+    margin-left: -10px;
+}
+
+.btn2 {
+    background-color: red;
+}
+
+
+
+
+@media (max-width: 600px) {
+    body {
+        background: #070740;
+        font-family: 'ZCOOL XiaoWei', sans-serif;
+        width: 100%;
+    }
+   
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .btn1 {
+        margin-left: 80px;
+    }
+
+    #count {
+        font-size: 5rem;
+        margin-left: 60px;
+    }
+
+  }
